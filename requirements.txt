@@ -1,0 +1,12 @@
+motor
+PyJWT
+bcrypt
+uvicorn
+pymongo
+python-decouple
+fastapi
+pydantic[email]
+passlib
+python-multipart
+boto3
+gunicorn
