@@ -1,5 +1,5 @@
 from fastapi import HTTPException
-from gen_id import id_generator
+from utils.gen_id import id_generator
 from aws.handler_s3 import upload_bucket_s3
 
 
