@@ -22,7 +22,7 @@ Desenvolvimento de uma API Mágica em Python + FastAPI + MongoDB + JWT que é ca
 ## Features
 - Python FastAPI backend.
 - MongoDB database.
-- Authentication (Extra)
+- Authentication
 - Upload Bucket S3
 
 ## Padrão das Rotas Criadas: 
@@ -168,36 +168,36 @@ Insira um novo cadastro nos campos abaixo e clique no botão Execute.
 
 E vejam o resultado abaixo:
 
-![alt tag]()
+![alt tag](https://i.imgur.com/QdlQEWq.png)
 
 
 Arquivos upados no bucket s3, o mais interessante do bucket é o sistema de pastas que ele utiliza, cada livro nosso tem uma pasta com o id respectivo, alem disso coloquei na frente de seu arquivo o seu id. no metodo de exclusão apenas removemos a pasta:
 
-![alt tag]()
+![alt tag](https://i.imgur.com/5BjfmRW.png)
 
 
 ### 2) Método: GET (Selecionar Todos: http://localhost:8080/book/)
 
 E vejam a lista de todos os livros criados abaixo: 
 
-![alt tag]()
+![alt tag](https://i.imgur.com/2TL1gLV.png)
 
 
 ### 3) Método: GET (By id) (Selecionar por código mágico: http://localhost:8080/book/{id})
 
 Bom, agora vamos regastar um determinado livro através do id. E vejam o resultado abaixo:
 
-![alt tag]()
+![alt tag](https://i.imgur.com/ARvY1YI.png)
 
 
 ### 5) Método: DELETE (Excluir Por id: http://localhost:8080/book/{id})
 
 E enfim, o último método. Vamos excluir esse livro.... :( :( e Vejam o resultado abaixo:
 
-![alt tag]()
+![alt tag](https://i.imgur.com/62i3Tsx.png)
 
 O Livro foi devidademente excluído e ao listar via GET observem que o funcionário(a) não consta mais na lista:
 
-![alt tag]()
+![alt tag](https://i.imgur.com/2YpvVmh.png)
 
 
